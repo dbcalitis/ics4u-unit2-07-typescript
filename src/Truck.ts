@@ -10,11 +10,7 @@ import Vehicle from './Vehicle'
 class Truck extends Vehicle {
   private licensePlate: string
 
-  constructor(
-    licensePlate: string,
-    colour: string,
-    maxSpeed: number
-  ) {
+  constructor(licensePlate: string, colour: string, maxSpeed: number) {
     super(colour, maxSpeed)
     this.licensePlate = licensePlate
   }
